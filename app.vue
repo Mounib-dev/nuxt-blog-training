@@ -1,16 +1,12 @@
 <template>
-  <nav>
-    <ul>
-      <li>
-        <NuxtLink to="/">Home</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="/about">About</NuxtLink>
-      </li>
-    </ul>
-  </nav>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtRouteAnnouncer />
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
