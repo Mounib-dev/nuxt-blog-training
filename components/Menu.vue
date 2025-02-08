@@ -4,11 +4,15 @@
       <li>
         <NuxtLink to="/" class="link">Home</NuxtLink>
       </li>
+
       <li>
-        <NuxtLink to="/about" class="link">About</NuxtLink>
+        <NuxtLink to="/projects" class="link">Projects</NuxtLink>
       </li>
       <li>
         <NuxtLink to="/blog" class="link">Blog</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/about" class="link">About</NuxtLink>
       </li>
     </ul>
   </nav>
